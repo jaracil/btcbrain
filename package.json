@@ -3,15 +3,25 @@
   "version": "1.0.0",
   "description": "BTC brain wallet",
   "main": "index.js",
+  "repository": "https://github.com/jaracil/btcbrain",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "jaracil",
+  "keywords": [
+    "brainwallet",
+    "btc",
+    "bitcoin",
+    "wallet"
+  ],
+  "author": "Jose Luis Aracil",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
     "coinkey": "^3.0.0",
     "promptly": "^3.2.0",
     "qrcode": "^1.5.0"
+  },
+  "bin": {
+    "btcbrain": "./index.js"
   }
 }
