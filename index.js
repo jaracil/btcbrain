@@ -16,7 +16,7 @@ Options:
 --help, -h      Show help.
 
 Usage example:
-ethbrain -p -q  #Show private key in WIF format and QR code. 
+btcbrain -p -q  #Show private key in WIF format and QR code. 
 
 `
 
