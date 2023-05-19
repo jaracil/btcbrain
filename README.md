@@ -23,6 +23,7 @@ btcbrain transforms a passphrase into a valid BTC wallet.
 
 Options:
 -l              Generate legacy address.
+-s              Use scrypt instead of sha256.
 -p              Show private key in WIF format.
 -q              Show also QR code.
 --help, -h      Show help.
